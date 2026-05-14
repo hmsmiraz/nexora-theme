@@ -147,7 +147,7 @@ python -m http.server 8080
 ### SSH into EC2
 
 ```bash
-ssh -i your-key.pem ubuntu@13.212.33.27
+ssh -i your-key.pem ubuntu@YOUR_IP
 ```
 
 ### Install Docker
@@ -316,7 +316,7 @@ Go to **EC2 → Security Groups → Inbound Rules → Add Rule:**
 ### Visit site
 
 ```
-http://13.212.33.27:8080
+http://YOUR_IP:8080
 ```
 
 Complete the WordPress setup wizard, then activate the Nexora theme.
